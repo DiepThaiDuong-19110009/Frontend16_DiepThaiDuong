@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* Title */
+div.title{
+    padding: 30px;
+    text-align: center;
+}
+
+div.title p{
+    display: inline;
+    background-color: darkgreen;
+    color: white;
+    padding: 10px 20px;
+    font-size: 50px;
+}
+
+/* Content */
+div.content{
+    padding:20px;
+}
+
+div.content p{
+    font-size: 25px;
+    line-height: 50px;
+    color: blue;
+}
+
+div.content p:last-child{
+    background-color: yellow;
+    font-weight: bold;
+}
