@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+}
+
+.font{
+    width: 40%;
+    font-family: fontLobster;
+    background-color: rgb(166, 102, 226);
+    margin-top: 30px;
+    line-height: 80px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    padding: 40px;
+}
+
+@font-face{
+    src: url(./Font/Lobster-Regular.ttf);
+    font-family: fontLobster;
+}
