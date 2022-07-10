@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0px auto;
+}
+
+.border{
+    margin-top: 30px;
+    width: 40%;
+    border: 3px solid brown;
+}
+
+.content{
+    text-align: center;
+    margin: 2px;
+    font-size: 30px;
+    padding: 5px 0px;
+    font-weight: bold;
+    border: 3px solid green;
+}
