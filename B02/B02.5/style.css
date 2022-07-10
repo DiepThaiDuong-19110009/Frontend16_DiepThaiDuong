@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    height: 100px;
+    background-color: rgb(230, 230, 54);
+    padding: 20px 0;
+}
+
+.box{
+    width: 220px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+/* background icon */
+.icon{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border-radius: 50px;
+    margin: 0 5px;
+}
+
+.white{
+    float: left;
+    background-color: white;
+}
+
+.blue{
+    float: right;
+    background-color: rgb(86, 86, 255);
+}
+
+/* icon */
+.fa-facebook{
+    font-size: 60px;
+    margin-top: 20px;
+}
+
+.icon1{
+    color: rgb(86, 86, 255);;
+}
+
+.icon2{
+    color: white;
+}
+
