@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.box{
+    display: block;
+    width: 80%;
+    height: 200px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: blanchedalmond;
+}
+
+.block_1{
+    display: inline-block;
+    width: 100px;
+    height: 200px;
+    background-color: black;
+}
+
+.block_2{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    vertical-align: 50px;
+    background-color: black;
+}

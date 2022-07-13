@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    width: 80%;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 50px;
+    font-size: 0px;
+    box-sizing: border-box;
+    background-color: rgb(190, 142, 69);
+}
+
+.block_1{
+    display: inline-block;
+    width: 30%;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    border: 5px rgb(4, 97, 25) solid;
+    background-color: rgb(58, 124, 58);
+}
+
+.block_2{
+    display: inline-block;
+    width: 70%;
+    vertical-align: top;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    border: 5px rgb(184, 5, 50) solid;
+    background-color: rgb(57, 43, 126);
+}
