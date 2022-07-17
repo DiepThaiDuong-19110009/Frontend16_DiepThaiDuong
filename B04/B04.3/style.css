@@ -3,3 +3,68 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/* btn1 */
+.btn1{
+    cursor: pointer;
+    border: none;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(37, 217, 136);
+    color: white;
+    font-size: 20px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 100px;
+    transition: 0.5s ease-in-out;
+}
+
+.btn1:hover{
+    border-radius: 50px;
+    transition: 0.5s ease-in-out;
+}
+
+.fa-plus{
+    margin: 0 10px 0 0;
+    color: white;
+}
+
+/* btn2 */
+.btn2{
+    cursor: pointer;
+    border: none;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 100px;
+    color: rgb(4, 184, 4);
+    border: solid 2px rgb(4, 184, 4);
+    position: relative;
+    overflow: hidden;
+}
+
+.btn2::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transform: rotate(-45deg) translateY(-200%);
+    background-color: rgb(4, 184, 4);
+    transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
+    opacity: 1;
+}
+
+.btn2:hover::before{
+    transform: rotate(-45deg) translateY(200%);
+    opacity: 0;
+}
+
+.fa-plus{
+    margin: 0 10px 0 0;
+    color: rgb(4, 184, 4);
+}
+
